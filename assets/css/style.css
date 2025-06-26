@@ -97,7 +97,7 @@
 .hero{
     width: 100% ;
     min-height: 100vh;
-    background-image: url("../images/homepage.jpg");
+    background-image:linear-gradient(#01485c96, #03161ca0, rgba(0, 0, 14, 0)), url("../images/homepage.jpg");
     background-position: center;
     background-size: cover;
     padding: 0px 10%;
