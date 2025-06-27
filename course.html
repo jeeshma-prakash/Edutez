@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <title>Course-Edutez</title>
+    <link rel="icon" type="image/png" href="assets/images/Web-logo.png">
+    <link href="assets/css/course.css" rel="stylesheet" />
+    <link href="assets/css/navfoot.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="contact">
+        <i class="fa-solid fa-phone"></i>
+        <span class="phone-number">+91 - 6362 32 4824</span>
+        <div class="container mail">
+            <p class="email">support@edutez.com</p>
+        </div>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+    </div>
+
+    <!-- hero section  -->
+    <div class="hero">
+        <div id="navbar"></div>
+        <section class="course-hero">
+            <div class="container text-center">
+                <h1 class="hero-title">Courses</h1>
+                <div class="hero-underline"></div>
+                <p class="hero-subtitle">
+                    Advance Your Knowledge with Our <span class="highlight">Course</span> Offerings
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Floating Phone Icon -->
+    <div class="floating-icon">
+        <a href="tel:+91-6362324824" style="color: white;">
+            <i class="bi bi-telephone-fill"></i>
+        </a>
+    </div>
+
+    <section class="section mt-5 pt-5" id="counter-section">
+        <div class="left-content1">
+            <h5><span class="title-line"></span>WHY THIS COURSE?</h5>
+            <h2>Empowering You with<span> Cutting-Edge </span>Skills</h2>
+            <div class="underline"></div>
+            <p>
+                Explore a range of expertly designed courses tailored to equip you with in-demand skills for today’s
+                fast-evolving
+                industries. Each program offers hands-on learning, real-world applications, and the tools you need to
+                excel in your
+                chosen field.
+            </p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <h3 id="students-count">0+</h3>
+                <p>Students Enrolled</p>
+            </div>
+            <div class="stat-box">
+                <h3 id="courses-count">0+</h3>
+                <p>Courses Offered</p>
+            </div>
+            <div class="stat-box">
+                <h3 id="certs-count">0</h3>
+                <p>Certifications Awarded</p>
+            </div>
+            <div class="stat-box">
+                <h3 id="countries-count">0</h3>
+                <p>Countries Reached</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-section py-5 mt-5 pt-5">
+        <div class="container text-center">
+            <h2 class="section-title mb-3">Our <span class="highlight">Academic</span> Programs</h2>
+            <p class="section-description mb-4">
+                Explore our range of meticulously crafted courses designed to equip you with the skills and knowledge
+                needed to excel in your field.
+            </p>
+
+            <!-- Tab Buttons -->
+            <div class="d-flex flex-wrap justify-content-center gap-3 mb-5">
+                <button class="btn btn-outline-dark tab-button active" data-category="cs">Computer Science</button>
+                <button class="btn btn-outline-dark tab-button" data-category="ece">ECE/EEE</button>
+                <button class="btn btn-outline-dark tab-button" data-category="management">Management</button>
+                <button class="btn btn-outline-dark tab-button" data-category="civil">Civil Engineering</button>
+                <button class="btn btn-outline-dark tab-button" data-category="bio">Biotechnology</button>
+                <button class="btn btn-outline-dark tab-button" data-category="auto">Automotive</button>
+            </div>
+
+            <!-- Course Cards -->
+            <div class="row g-4" id="cardContainer">
+                <!-- Computer Science (8 cards) -->
+                <div class="col-md-6 col-lg-3 course-card cs">
+                    <a href="app-development.html" class="card h-100">
+                        <img src="assets/images/app-development-intro.jpg" class="card-img-top" alt="App Development">
+                        <div class="card-body">
+                            <h5 class="card-title">App Development</h5>
+                            <p class="card-text">Build innovative mobile apps with seamless UX.</p>
+                            <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 course-card cs">
+                    <a href="amazon-web.html" class="card h-100 ">
+                        <img src="assets/images/amazon-intro.jpg" class="card-img-top" alt="AWS">
+                        <div class="card-body">
+                            <h5 class="card-title">Amazon Web Services</h5>
+                            <p class="card-text">Master cloud computing and scalable infrastructure.</p>
+                            <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 course-card cs">
+                    <a href="data-science.html" class="card h-100 ">
+                        <img src="assets/images/data-science-intro.jpg" class="card-img-top" alt="Data Science">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Science</h5>
+                            <p class="card-text">Turn raw data into actionable insights with AI trends.</p>
+                            <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 course-card cs">
+                    <a href="cyber-security.html" class="card h-100">
+                        <img src="assets/images/cyber-security-intro.jpg" class="card-img-top" alt="Cyber Security">
+                        <div class="card-body">
+                            <h5 class="card-title">Cyber Security</h5>
+                            <p class="card-text">Protect digital assets by mastering threat detection.</p>
+                            <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 course-card cs">
+                    <a href="artificial-intelligence.html" class="card h-100 ">
+                        <img src="assets/images/ai-intro.jpg" class="card-img-top" alt="Artificial Intelligence">
+                        <div class="card-body">
+                            <h5 class="card-title">Artificial Intelligence</h5>
+                            <p class="card-text">Design smart systems using neural networks & ML.</p>
+                            <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 course-card cs">
+                    <a href="machine-learning.html" class="card h-100 ">
+                        <img src="assets/images/machine-learning-intro.jpg" class="card-img-top" alt="Machine Learning">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Learning</h5>
+                            <p class="card-text">Train models and uncover predictive patterns in data.</p>
+                            <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 course-card cs">
+                    <a href="cloud-computing.html" class="card h-100">
+                        <img src="assets/images/cloud-computing-intro.jpg" class="card-img-top" alt="Cloud Computing">
+                        <div class="card-body">
+                            <h5 class="card-title">Cloud Computing</h5>
+                            <p class="card-text">Learn cloud architecture, deployment & scaling.</p>
+                            <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 course-card cs">
+                    <a href="development.html" class="card h-100 ">
+                        <img src="assets/images/web-development-intro.jpg" class="card-img-top" alt="Development">
+                        <div class="card-body">
+                            <h5 class="card-title">Development</h5>
+                            <p class="card-text">Master full-stack development for dynamic websites.</p>
+                            <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Course Cards -->
+                <div class="row g-4" id="cardContainer">
+                    <!-- ece (5 cards) -->
+                    <div class="col-md-6 col-lg-3 course-card ece">
+                        <a href="app-development.html" class="card h-100">
+                            <img src="assets/images/vlsi-intro.jpg" class="card-img-top" alt="vlsi">
+                            <div class="card-body">
+                                <h5 class="card-title">VLSI</h5>
+                                <p class="card-text">Specialize in very large scale integration for designing
+                                    microchips.</p>
+                                <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 course-card ece">
+                        <a href="amazon-web.html" class="card h-100 ">
+                            <img src="assets/images/iot-intro.jpg" class="card-img-top" alt="IOT">
+                            <div class="card-body">
+                                <h5 class="card-title">IOT</h5>
+                                <p class="card-text">Explore connected devices and smart systems that communicate over
+                                    the internet.</p>
+                                <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 course-card ece">
+                        <a href="data-science.html" class="card h-100 ">
+                            <img src="assets/images/robotics-intro.jpg" class="card-img-top" alt="robotics">
+                            <div class="card-body">
+                                <h5 class="card-title">Robotics</h5>
+                                <p class="card-text">Engineer intelligent robots that transform industries & automation.
+                                </p>
+                                <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 course-card ece">
+                        <a href="cyber-security.html" class="card h-100">
+                            <img src="assets/images/embedded-sys-intro.jpg" class="card-img-top" alt="embedded sysytem">
+                            <div class="card-body">
+                                <h5 class="card-title">Embedded Systems</h5>
+                                <p class="card-text">Develop cutting-edge embedded solutions for real-world & tech
+                                    applications.</p>
+                                <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 course-card ece">
+                        <a href="artificial-intelligence.html" class="card h-100 ">
+                            <img src="assets/images/hybrid-electric-intro.jpg" class="card-img-top"
+                                alt="hybrid electric vehicle">
+                            <div class="card-body">
+                                <h5 class="card-title">Hybrid Electric Vehicles</h5>
+                                <p class="card-text">Drive the future with expertise in hybrid & electric vehicle
+                                    technology.</p>
+                                <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Course Cards -->
+                    <div class="row g-4" id="cardContainer">
+                        <!-- management (6 cards) -->
+                        <div class="col-md-6 col-lg-3 course-card management">
+                            <a href="app-development.html" class="card h-100">
+                                <img src="assets/images/digital-marketing-intro.jpg" class="card-img-top"
+                                    alt="digital marketing">
+                                <div class="card-body">
+                                    <h5 class="card-title">Digital Marketing</h5>
+                                    <p class="card-text">Gain expertise in online marketing strategies,including
+                                        SEO,social media,and PPC</p>
+                                    <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-3 course-card management">
+                            <a href="amazon-web.html" class="card h-100 ">
+                                <img src="assets/images/finance-intro.jpg" class="card-img-top" alt="finance">
+                                <div class="card-body">
+                                    <h5 class="card-title">Finance</h5>
+                                    <p class="card-text">Learn financial management,including budgeting,investment,and
+                                        financial analysis.</p>
+                                    <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-3 course-card management">
+                            <a href="data-science.html" class="card h-100 ">
+                                <img src="assets/images/marketing-management-intro.jpg" class="card-img-top"
+                                    alt="Marketing Management">
+                                <div class="card-body">
+                                    <h5 class="card-title">Marketing Mnagement</h5>
+                                    <p class="card-text">Understand the key concepts and strategies of marketing in
+                                        businesses.</p>
+                                    <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-3 course-card management">
+                            <a href="cyber-security.html" class="card h-100">
+                                <img src="assets/images/hr-intro.jpg" class="card-img-top" alt="hr">
+                                <div class="card-body">
+                                    <h5 class="card-title">Human Resources</h5>
+                                    <p class="card-text">Learn the essential skills for managing and developing a
+                                        workforce.</p>
+                                    <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-3 course-card management">
+                            <a href="artificial-intelligence.html" class="card h-100 ">
+                                <img src="assets/images/stock-marketing-intro.jpg" class="card-img-top"
+                                    alt="Stock marketing">
+                                <div class="card-body">
+                                    <h5 class="card-title">Stock Marketing</h5>
+                                    <p class="card-text">Explore the fundamentals of stock trading,investment
+                                        strategies,and market analysis.</p>
+                                    <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-3 course-card management">
+                            <a href="machine-learning.html" class="card h-100 ">
+                                <img src="assets/images/business-analytics-intro.jpg" class="card-img-top"
+                                    alt="business analytics">
+                                <div class="card-body">
+                                    <h5 class="card-title">Business Analytics</h5>
+                                    <p class="card-text">Master the tools and techniques for data-driven decision-making
+                                        in business.</p>
+                                    <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Course Cards -->
+                        <div class="row g-4" id="cardContainer">
+                            <!-- civil engineering (2 cards) -->
+                            <div class="col-md-6 col-lg-4 course-card civil">
+                                <a href="app-development.html" class="card h-100">
+                                    <img src="assets/images/autocad-intro.jpg" class="card-img-top" alt="autocad">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Auto CAD</h5>
+                                        <p class="card-text">Learn the principles of project management and planning in
+                                            civil engineering.</p>
+                                        <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-4 course-card civil">
+                                <a href="amazon-web.html" class="card h-100 ">
+                                    <img src="assets/images/construction-planning-intro.jpg" class="card-img-top"
+                                        alt="construction">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Construction Planning</h5>
+                                        <p class="card-text">Learn the principles of project management and planning in
+                                            civil engineering.</p>
+                                        <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span></div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Course Cards -->
+                            <div class="row g-4" id="cardContainer">
+                                <!-- biotechnology (3 cards) -->
+                                <div class="col-md-6 col-lg-4 course-card bio">
+                                    <a href="app-development.html" class="card h-100">
+                                        <img src="assets/images/bioinformatics-intro.jpg" class="card-img-top"
+                                            alt="bioinformatics">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Bioinformatics</h5>
+                                            <p class="card-text">Combine biology, computer science, and information to
+                                                analyze biological data.</p>
+                                            <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 col-lg-4 course-card bio">
+                                    <a href="amazon-web.html" class="card h-100 ">
+                                        <img src="assets/images/nanoscience-intro.jpg" class="card-img-top"
+                                            alt="Nanoscience">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nanoscience</h5>
+                                            <p class="card-text">Explore the science of nanoscale materials and their
+                                                applications.</p>
+                                            <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 col-lg-4 course-card bio">
+                                    <a href="data-science.html" class="card h-100 ">
+                                        <img src="assets/images/genetic-engineering-intro.jpg" class="card-img-top"
+                                            alt="Genetic">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Genetic Engineering</h5>
+                                            <p class="card-text">Learn about manipulating genes to alter the
+                                                characteristics of organisms.</p>
+                                            <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- Course Cards -->
+                                <div class="row g-4" id="cardContainer">
+                                    <!-- automotive (3 cards) -->
+                                    <div class="col-md-6 col-lg-4 course-card auto">
+                                        <a href="app-development.html" class="card h-100">
+                                            <img src="assets/images/autocad-intro.jpg" class="card-img-top"
+                                                alt="autocad">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Auto CAD</h5>
+                                                <p class="card-text">Learn the principles of project management and
+                                                    planning in civil engineering.</p>
+                                                <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 course-card auto">
+                                        <a href="amazon-web.html" class="card h-100 ">
+                                            <img src="assets/images/ic-engines-intro.jpg" class="card-img-top"
+                                                alt="ic engines">
+                                            <div class="card-body">
+                                                <h5 class="card-title">IC Engines</h5>
+                                                <p class="card-text">Study the mechanics and operation of internal
+                                                    combustion engines.</p>
+                                                <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4 course-card auto">
+                                        <a href="amazon-web.html" class="card h-100 ">
+                                            <img src="assets/images/car-designs-intro.jpg" class="card-img-top"
+                                                alt="car designing">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Car Designing</h5>
+                                                <p class="card-text">Develop skills in automotive design,focusing on
+                                                    aesthetics and functionality.</p>
+                                                <div class="stars text-warning">★★★★★ <span class="text-dark">4.5</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+    </section>
+
+    <div class="container py-5 mt-5 pt-5">
+        <div class="row g-5 align-items-start">
+            <!-- Left Contact Info -->
+            <div class="col-lg-6">
+                <h4 class="fw-bold mb-3 contact-heading">GET IN TOUCH</h4>
+                <p class="text-muted mb-4 mt-4">
+                    Ready to take the next step? We're here to help! Whether you have questions, need more information,
+                    or want to discuss how we can work together, feel free to reach out. Connect with us today and let’s
+                    start a conversation.
+                </p>
+
+                <p class="mt-4 mb-4">
+                    <i class="bi bi-envelope-fill text-info me-2"></i>
+                    <strong>support@edutez.com</strong>
+                </p>
+                <p class="mb-4">
+                    <i class="bi bi-telephone-fill text-info me-2"></i>
+                    +91 - 6362 32 4824
+                </p>
+                <p>
+                    <i class="bi bi-geo-alt-fill text-info me-2"></i>
+                    1794 36/3, 27th Main Rd, near Power Station, 2nd Sector, ITI Layout, Sector 7, HSR Layout,
+                    Bengaluru, Karnataka 560102
+                </p>
+            </div>
+
+            <!-- Right Form -->
+            <div class="col-lg-6">
+                <div class="bg-white p-4 shadow rounded-4">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">YOUR NAME</label>
+                            <input type="text" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">YOUR EMAIL</label>
+                            <input type="email" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">PHONE NUMBER</label>
+                            <input type="tel" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">ARE YOU A</label>
+                            <select class="form-select">
+                                <option selected disabled>—Please choose an option—</option>
+                                <option value="new student">New Student</option>
+                                <option value="existing student">Existing Student</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">YOUR MESSAGE (OPTIONAL)</label>
+                            <textarea class="form-control" rows="4"></textarea>
+                        </div>
+                        <button class="btn btn-dark px-4">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="pricing-section">
+        <h2>PRICING PLAN</h2>
+
+        <div class="pricing-cards">
+
+            <!-- Bootcamp -->
+            <div class="card1">
+                <div class="card-header">BOOTCAMP</div>
+                <div class="card-price">₹3000</div>
+                <ul>
+                    <li>10+ Hours of Online Live mentor training</li>
+                    <li>10+ hours of video content access</li>
+                    <li>Capstone project</li>
+                    <li>3 months LMS access</li>
+                    <li>Certificate for course completion</li>
+                    <li>Co-branded certificate for internship completion</li>
+                    <li>One month duration</li>
+                </ul>
+                <div class="card-footer">
+                    <button>Join Now</button>
+                </div>
+            </div>
+
+            <!-- Self Paced -->
+            <div class="card1">
+                <div class="card-header">SELF PACED</div>
+                <div class="card-price">₹5000</div>
+                <ul>
+                    <li>20+ Hours of video content access</li>
+                    <li>Hands on 1 minor & 1 major project</li>
+                    <li>6 months LMS Access</li>
+                    <li>Certificate for course completion</li>
+                    <li>Co-branded certificate for internship completion</li>
+                    <li>LOR & Outstanding certificates based on performance</li>
+                    <li>2 months internship</li>
+                </ul>
+                <div class="card-footer">
+                    <button>Join Now</button>
+                </div>
+            </div>
+
+            <!-- Expert Led -->
+            <div class="card1">
+                <div class="card-header">EXPERT LED</div>
+                <div class="card-price">₹6000</div>
+                <ul>
+                    <li>20+ Hours of Online Live mentor training</li>
+                    <li>20+ Hours of video content access</li>
+                    <li>Hands on 10 minor & 1 major project</li>
+                    <li>2 months internship</li>
+                    <li>6 months LMS Access</li>
+                    <li>Certificate for course completion</li>
+                    <li>Co-branded certificate for internship completion</li>
+                    <li>LOR & Outstanding certificates based on performance</li>
+                    <li>Mock Interviews, Resume building & Placement assistance</li>
+                </ul>
+                <div class="card-footer">
+                    <button>Join Now</button>
+                </div>
+            </div>
+
+            <!-- Advanced -->
+            <div class="card1">
+                <div class="card-header">ADVANCED</div>
+                <div class="card-price">₹20000</div>
+                <ul>
+                    <li>Co-branded Certificate of Internship Completion from International company</li>
+                    <li>Career Advancement Opportunity</li>
+                    <li>Networking with Industry Professionals</li>
+                    <li>24+ Hours of Online Live mentor training</li>
+                    <li>24+ Hours of video content access</li>
+                    <li>Hands on 10 minor & 1 major project</li>
+                    <li>2 months internship</li>
+                    <li>1 year LMS Access</li>
+                    <li>Certificate for course completion</li>
+                    <li>LOR & Outstanding certificates based on performance</li>
+                    <li>Mock Interviews, Resume building & Placement assistance</li>
+                </ul>
+                <div class="card-footer">
+                    <button>Join Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Map Section -->
+    <section class="map-section py-5">
+        <div class="container-fluid">
+            <div class="map-responsive">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30773392.078304354!2d61.028322527582496!3d19.690576264827094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fcd24a7aeaabbfd%3A0x8f74889a4c0c3182!2sEdutez!5e0!3m2!1sen!2sin!4v1750966763175!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/courses.js"></script>
+</body>
+
+</html>

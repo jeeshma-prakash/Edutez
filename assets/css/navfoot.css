@@ -39,11 +39,11 @@
         font-weight: 400;
     }
 
-    .menu ul li:first-child a {
+    /* .menu ul li:first-child a {
         text-decoration: underline;
         text-decoration-color: orangered;
         text-underline-offset: 6px;
-    }
+    } */
 
     .menu ul li a:hover {
         text-decoration: underline;
