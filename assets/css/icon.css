@@ -1,0 +1,57 @@
+ .floating-icon {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #00c3b9;
+        color: white;
+        padding: 15px;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        font-size: 20px;
+        z-index: 1000;
+        cursor: pointer;
+  }
+
+ /* contact and icon section */
+
+ .container-fluid.head{
+    background-color: rgb(1, 7, 25);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: white;
+ } 
+ .fa-phone{
+    color: rgb(0, 176, 252);
+    padding: .3rem;
+    padding-left: 3rem;
+ }
+ .phone-number{
+    font-size: .9rem;
+ }
+ .email{
+    font-size: .9rem;
+    align-items: center;
+    padding-top: .8rem;
+ }
+ .icons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-right:3rem;
+    font-size: 1rem;
+ }
+ .icons a{
+    color: white;
+    text-decoration: none;
+ }
+
+@media(max-width:900px){
+    .container-fluid.head{
+        display: none;
+    }
+}
+  

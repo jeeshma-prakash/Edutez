@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" href="assets/images/Web-logo.png">
     <link href="assets/css/course.css" rel="stylesheet" />
     <link href="assets/css/navfoot.css" rel="stylesheet" />
+     <link href="assets/css/icon.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
@@ -17,18 +18,7 @@
 </head>
 
 <body>
-    <div class="contact">
-        <i class="fa-solid fa-phone"></i>
-        <span class="phone-number">+91 - 6362 32 4824</span>
-        <div class="container mail">
-            <p class="email">support@edutez.com</p>
-        </div>
-        <div class="icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-        </div>
-    </div>
+     <div id="icons"></div>
 
     <!-- hero section  -->
     <div class="hero">
@@ -192,7 +182,7 @@
                 <div class="row g-4" id="cardContainer">
                     <!-- ece (5 cards) -->
                     <div class="col-md-6 col-lg-3 course-card ece">
-                        <a href="app-development.html" class="card h-100">
+                        <a href="vlsi.html" class="card h-100">
                             <img src="assets/images/vlsi-intro.jpg" class="card-img-top" alt="vlsi">
                             <div class="card-body">
                                 <h5 class="card-title">VLSI</h5>
@@ -203,7 +193,7 @@
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-3 course-card ece">
-                        <a href="amazon-web.html" class="card h-100 ">
+                        <a href="iot.html" class="card h-100 ">
                             <img src="assets/images/iot-intro.jpg" class="card-img-top" alt="IOT">
                             <div class="card-body">
                                 <h5 class="card-title">IOT</h5>
@@ -214,7 +204,7 @@
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-3 course-card ece">
-                        <a href="data-science.html" class="card h-100 ">
+                        <a href="robotics.html" class="card h-100 ">
                             <img src="assets/images/robotics-intro.jpg" class="card-img-top" alt="robotics">
                             <div class="card-body">
                                 <h5 class="card-title">Robotics</h5>
@@ -225,7 +215,7 @@
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-3 course-card ece">
-                        <a href="cyber-security.html" class="card h-100">
+                        <a href="embedded technology.html" class="card h-100">
                             <img src="assets/images/embedded-sys-intro.jpg" class="card-img-top" alt="embedded sysytem">
                             <div class="card-body">
                                 <h5 class="card-title">Embedded Systems</h5>
@@ -236,7 +226,7 @@
                         </a>
                     </div>
                     <div class="col-md-6 col-lg-3 course-card ece">
-                        <a href="artificial-intelligence.html" class="card h-100 ">
+                        <a href="hybrid electric vehicles.html" class="card h-100 ">
                             <img src="assets/images/hybrid-electric-intro.jpg" class="card-img-top"
                                 alt="hybrid electric vehicle">
                             <div class="card-body">
@@ -252,7 +242,7 @@
                     <div class="row g-4" id="cardContainer">
                         <!-- management (6 cards) -->
                         <div class="col-md-6 col-lg-3 course-card management">
-                            <a href="app-development.html" class="card h-100">
+                            <a href="digital marketing.html" class="card h-100">
                                 <img src="assets/images/digital-marketing-intro.jpg" class="card-img-top"
                                     alt="digital marketing">
                                 <div class="card-body">
@@ -264,7 +254,7 @@
                             </a>
                         </div>
                         <div class="col-md-6 col-lg-3 course-card management">
-                            <a href="amazon-web.html" class="card h-100 ">
+                            <a href="finance.html" class="card h-100 ">
                                 <img src="assets/images/finance-intro.jpg" class="card-img-top" alt="finance">
                                 <div class="card-body">
                                     <h5 class="card-title">Finance</h5>
@@ -275,7 +265,7 @@
                             </a>
                         </div>
                         <div class="col-md-6 col-lg-3 course-card management">
-                            <a href="data-science.html" class="card h-100 ">
+                            <a href="marketing management.html" class="card h-100 ">
                                 <img src="assets/images/marketing-management-intro.jpg" class="card-img-top"
                                     alt="Marketing Management">
                                 <div class="card-body">
@@ -287,7 +277,7 @@
                             </a>
                         </div>
                         <div class="col-md-6 col-lg-3 course-card management">
-                            <a href="cyber-security.html" class="card h-100">
+                            <a href="hr.html" class="card h-100">
                                 <img src="assets/images/hr-intro.jpg" class="card-img-top" alt="hr">
                                 <div class="card-body">
                                     <h5 class="card-title">Human Resources</h5>
@@ -298,7 +288,7 @@
                             </a>
                         </div>
                         <div class="col-md-6 col-lg-3 course-card management">
-                            <a href="artificial-intelligence.html" class="card h-100 ">
+                            <a href="stock-marketing.html" class="card h-100 ">
                                 <img src="assets/images/stock-marketing-intro.jpg" class="card-img-top"
                                     alt="Stock marketing">
                                 <div class="card-body">
@@ -310,7 +300,7 @@
                             </a>
                         </div>
                         <div class="col-md-6 col-lg-3 course-card management">
-                            <a href="machine-learning.html" class="card h-100 ">
+                            <a href="business analytics.html" class="card h-100 ">
                                 <img src="assets/images/business-analytics-intro.jpg" class="card-img-top"
                                     alt="business analytics">
                                 <div class="card-body">
@@ -326,7 +316,7 @@
                         <div class="row g-4" id="cardContainer">
                             <!-- civil engineering (2 cards) -->
                             <div class="col-md-6 col-lg-4 course-card civil">
-                                <a href="app-development.html" class="card h-100">
+                                <a href="autocad.html" class="card h-100">
                                     <img src="assets/images/autocad-intro.jpg" class="card-img-top" alt="autocad">
                                     <div class="card-body">
                                         <h5 class="card-title">Auto CAD</h5>
@@ -337,7 +327,7 @@
                                 </a>
                             </div>
                             <div class="col-md-6 col-lg-4 course-card civil">
-                                <a href="amazon-web.html" class="card h-100 ">
+                                <a href="construction planning.html" class="card h-100 ">
                                     <img src="assets/images/construction-planning-intro.jpg" class="card-img-top"
                                         alt="construction">
                                     <div class="card-body">
@@ -353,7 +343,7 @@
                             <div class="row g-4" id="cardContainer">
                                 <!-- biotechnology (3 cards) -->
                                 <div class="col-md-6 col-lg-4 course-card bio">
-                                    <a href="app-development.html" class="card h-100">
+                                    <a href="bioinformatics.html" class="card h-100">
                                         <img src="assets/images/bioinformatics-intro.jpg" class="card-img-top"
                                             alt="bioinformatics">
                                         <div class="card-body">
@@ -366,7 +356,7 @@
                                     </a>
                                 </div>
                                 <div class="col-md-6 col-lg-4 course-card bio">
-                                    <a href="amazon-web.html" class="card h-100 ">
+                                    <a href="nanoscience.html" class="card h-100 ">
                                         <img src="assets/images/nanoscience-intro.jpg" class="card-img-top"
                                             alt="Nanoscience">
                                         <div class="card-body">
@@ -379,7 +369,7 @@
                                     </a>
                                 </div>
                                 <div class="col-md-6 col-lg-4 course-card bio">
-                                    <a href="data-science.html" class="card h-100 ">
+                                    <a href="genetic-engineering.html" class="card h-100 ">
                                         <img src="assets/images/genetic-engineering-intro.jpg" class="card-img-top"
                                             alt="Genetic">
                                         <div class="card-body">
@@ -396,7 +386,7 @@
                                 <div class="row g-4" id="cardContainer">
                                     <!-- automotive (3 cards) -->
                                     <div class="col-md-6 col-lg-4 course-card auto">
-                                        <a href="app-development.html" class="card h-100">
+                                        <a href="autocad.html" class="card h-100">
                                             <img src="assets/images/autocad-intro.jpg" class="card-img-top"
                                                 alt="autocad">
                                             <div class="card-body">
@@ -409,7 +399,7 @@
                                         </a>
                                     </div>
                                     <div class="col-md-6 col-lg-4 course-card auto">
-                                        <a href="amazon-web.html" class="card h-100 ">
+                                        <a href="internal-combustion-engines.html" class="card h-100 ">
                                             <img src="assets/images/ic-engines-intro.jpg" class="card-img-top"
                                                 alt="ic engines">
                                             <div class="card-body">
@@ -422,7 +412,7 @@
                                         </a>
                                     </div>
                                     <div class="col-md-6 col-lg-4 course-card auto">
-                                        <a href="amazon-web.html" class="card h-100 ">
+                                        <a href="car-design.html" class="card h-100 ">
                                             <img src="assets/images/car-designs-intro.jpg" class="card-img-top"
                                                 alt="car designing">
                                             <div class="card-body">

@@ -245,6 +245,10 @@
   background-color: #00a8a8;
   cursor: pointer;
 }
+.social-circle a{
+    color: #fff;
+    text-decoration: none;
+}
 .text-info{
     text-decoration: none;
 }

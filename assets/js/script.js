@@ -6,6 +6,10 @@ fetch('footer.html')
     .then(res => res.text())
     .then(data => document.getElementById('footer').innerHTML = data);
 
+fetch('icon.html')
+    .then(res => res.text())
+    .then(data => document.getElementById('icons').innerHTML = data);
+
 const tabButtons = document.querySelectorAll('.tab-button');
   const courseCards = document.querySelectorAll('.course-card');
 
@@ -69,3 +73,7 @@ const tabButtons = document.querySelectorAll('.tab-button');
     }
 
     typeEffect();
+
+    // about page testimonial 
+
+    
